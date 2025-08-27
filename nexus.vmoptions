@@ -1,0 +1,8 @@
+-Xms512m
+-Xmx1024m
+-XX:MaxDirectMemorySize=1024m
+-XX:+UseG1GC
+-Dkaraf.data=/opt/sonatype-work/nexus3
+-Dkaraf.log=/opt/sonatype-work/nexus3/log
+-Djava.io.tmpdir=/opt/sonatype-work/nexus3/tmp
+
