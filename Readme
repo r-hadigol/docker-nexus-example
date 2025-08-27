@@ -1,0 +1,1 @@
+You must download related nexus from https://help.sonatype.com/en/download.html and decopmress the files or instead of COPY we can use ADD 
