@@ -2,6 +2,7 @@ FROM openjdk:11
 RUN apt update && apt install -y bash \
     && rm -rf /var/lib/apt/lists/*
 WORKDIR /opt
+#F
 COPY nexus-3* nexus
 COPY sonatype-work sonatype-work
 COPY nexus.vmoptions nexus/bin/nexus.vmoptions
